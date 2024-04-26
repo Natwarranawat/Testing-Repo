@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Party Study Planner</title>
+</head>
+<body>
+    <h1>Birthday Party Study Planner</h1>
+    <form action="submit">
+        <label for="childName">Child's Name:</label>
+        <input type="text" id="childName" name="childName" required><br><br>
+        
+        <label for="birthdayDate">Birthday Date:</label>
+        <input type="date" id="birthdayDate" name="birthdayDate" required><br><br>
+        
+        <label for="studyTopics">Study Topics:</label><br>
+        <textarea id="studyTopics" name="studyTopics" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="partyDate">Party Date:</label>
+        <input type="date" id="partyDate" name="partyDate" required><br><br>
+        
+        <label for="guestCount">Number of Guests:</label>
+        <input type="number" id="guestCount" name="guestCount" min="1" required><br><br>
+        
+        <label for="contactEmail">Contact Email:</label>
+        <input type="email" id="contactEmail" name="contactEmail" required><br><br>
+        
+        <input type="submit" value="Create Planner">
+    </form>
+</body>
+</html>
